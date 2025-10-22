@@ -308,10 +308,11 @@ def main(data_directory, adresse_save_result, Treshold_vector):
 
 Treshold_vector=[5,10,15,20,25,30,35,40] # Seuil en % du max a tester
 
-data_directory="D:/travail/GT_thyroide/analyse 08112024"
-adresse_save_result="D:/travail/GT_thyroide/analyse 08112024/resultat_08112024_seuil10.csv"
+data_directory="Adresse fichier à analyser"
+adresse_save_result="adresse fichier d'analyse a sauver.csv"
 
 main(data_directory, adresse_save_result,Treshold_vector)
+
 
 
 
